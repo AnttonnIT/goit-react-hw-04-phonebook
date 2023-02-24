@@ -44,7 +44,6 @@ export function App() {
     <Container>
       <h2>Phonebook</h2>
       <Form onSubmit={formSubmitHandle}></Form>
-
       <h2>Contacts</h2>
       <Filter filter={filter} onChange={handleChange}></Filter>
       <ContactList
